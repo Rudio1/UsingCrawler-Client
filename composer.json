@@ -1,0 +1,17 @@
+{
+    "name": "rudio1/searching-url",
+    "description": "a program to search something about the url",
+    "license": "project",
+    "autoload": {
+        "psr-4": {
+            "Rudio1\\SearchingUrl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rudio1",
+            "email": "guilhermerudio6@gmail.com"
+        }
+    ],
+    "require": {}
+}
