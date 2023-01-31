@@ -3,6 +3,9 @@
     "description": "a program to search something about the url",
     "license": "project",
     "autoload": {
+        "files": [
+            "/functions"
+        ],
         "psr-4": {
             "Rudio1\\SearchingUrl\\": "src/"
         }
@@ -12,6 +15,12 @@
             "name": "Rudio1",
             "email": "guilhermerudio6@gmail.com"
         }
-    ],
-    "require": {}
+    ]
+    ,
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^4.2"
+    }
+    
 }
