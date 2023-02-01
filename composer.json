@@ -3,9 +3,6 @@
     "description": "a program to search something about the url",
     "license": "project",
     "autoload": {
-        "files": [
-            "/functions"
-        ],
         "psr-4": {
             "Rudio1\\SearchingUrl\\": "src/"
         }
